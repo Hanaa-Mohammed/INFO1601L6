@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Load Event</title>
+
+    <script>
+        function loaded() {
+            console.log("img loaded");
+        }
+    </script>
+</head>
+<body>
+
+    <h2>PlaceCage Image</h2>
+
+    <img 
+        src="https://placecage.lucidinternets.com/200/300" 
+        alt="Nicolas Cage Placeholder"
+        onload="loaded()"
+    >
+
+</body>
+</html>
